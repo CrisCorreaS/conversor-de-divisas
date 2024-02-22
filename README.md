@@ -5,7 +5,7 @@
 <img alt="css3" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 <img alt="javascript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 <br/><br/>
-[![Imagen del conversor de divisas](https://github.com/CrisCorreaS/conversor-de-divisas/blob/main/img/visualizaci%C3%B3n/cronometro-vista.png)](https://criscorreas.github.io/conversor-de-divisas/)
+![Imagen del conversor de divisas](https://github.com/CrisCorreaS/conversor-de-divisas/blob/main/img/visualizaci%C3%B3n/conversor-vista.png)
 
 Este conversor de divisas online ha sido creado por **[Cristina Correa](https://www.linkedin.com/in/cristina-correa-segade/)**
 
@@ -20,15 +20,17 @@ Este conversor de divisas online ha sido creado por **[Cristina Correa](https://
 ## 🌱 Características
 
 - **Interfaz**: Diseño sencillo y adaptable, con una estética monocromática que garantiza una experiencia visual uniforme en cualquier dispositivo.
-- **Funciones básicas**: Realiza peticiones a una API de bromas de programación para luego presentarlas de manera dinámica en HTML, ofreciendo así una experiencia entretenida y ligera para el usuario.
-- **Conexión a una API Open Source**: Conexión con el objeto XMLHttpRequest a una [API Open Source](https://official-joke-api.appspot.com/) que devuelve json.
+- **Conversión de Divisas**: Permite al usuario convertir entre seis divisas populares en tiempo real: euros (EUR), dólares estadounidenses (USD), dólares canadienses (CAD), dólares australianos (AUD), yenes (JPY) y libras esterlinas (GBP).
+- **Interactividad**: Facilita al usuario la conversión bidireccional entre cualquier par de divisas seleccionado con un simple clic.
+- **Actualización Automática**: Las tasas de cambio se actualizan automáticamente a partir de la API Open Source, garantizando la precisión y la actualización en tiempo real de las conversiones.
+- **Conexión a una API Open Source**: Conexión con el objeto XMLHttpRequest a una [API Open Source del Banco Nacional de Polonia](https://api.nbp.pl/) que devuelve datos en formato xml.
  
 ## 🛠️ Tecnologías Utilizadas
 
 - HTML
 - CSS
 - JavaScript
-- [API Open Source](https://official-joke-api.appspot.com/jokes/random)
+- [API Open Source](https://api.nbp.pl/api/exchangerates/tables/c/?format=xml)
 
 ## 🔎💡 Información
 > [!IMPORTANT]
