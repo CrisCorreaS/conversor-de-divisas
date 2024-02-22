@@ -32,6 +32,36 @@ Este conversor de divisas online ha sido creado por **[Cristina Correa](https://
 - JavaScript
 - [API Open Source](https://api.nbp.pl/api/exchangerates/tables/c/?format=xml)
 
+## 🤖 API
+- Al acceder a la [API del Banco Nacional de Polonia (NBP)](https://api.nbp.pl/), obtenemos información sobre el mercado de divisas y otras tasas de cambio gracias a esta institución financiera. La API está diseñada para proporcionar información sobre las tasas de cambio actuales. La respuesta está en formato XML pero también se puede configurar para devolver un objeto JSON, en mi caso he elegido utilizar el formato XML porque era lo que se me pedía en el ejercicio. Un ejemplo de la llamada a la API sería haciendo "https://api.nbp.pl/api/exchangerates/tables/c/?format=xml" lo cual nos devuelve:
+ ```
+<ArrayOfExchangeRatesTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ExchangeRatesTable>
+      <Table>C</Table>
+      <No>038/C/NBP/2024</No>
+      <TradingDate>2024-02-21</TradingDate>
+      <EffectiveDate>2024-02-22</EffectiveDate>
+      <Rates>
+         <Rate>
+           <Currency>dolar amerykański</Currency>
+           <Code>USD</Code>
+           <Bid>3.9589</Bid>
+           <Ask>4.0389</Ask>
+         </Rate>
+         <Rate>
+           <Currency>dolar australijski</Currency>
+           <Code>AUD</Code>
+           <Bid>2.5937</Bid>
+           <Ask>2.6461</Ask>
+         </Rate>
+         ...
+      </Rates>
+   </ExchangeRatesTable>
+</ArrayOfExchangeRatesTable>
+ ```
+> [!WARNING]
+> Al ser una API del BNP, la información está en polaco y las tags en inglés. En general no nos afecta para nada excepto para el nombre de la divisa.
+
 ## 🔎💡 Información
 > [!IMPORTANT]
 > - Este es un proyecto para principiantes. No se requieren conocimientos avanzados de HTML, CSS o JavaScript, pero sí saber cómo hacer conexiones a apis con el objeto XMLHttpRequest.
@@ -40,7 +70,7 @@ Este conversor de divisas online ha sido creado por **[Cristina Correa](https://
 
 > [!TIP]
 > A la hora de desarrollar el proyecto, te pueden venir bien los siguientes recursos:
-> - [API de Generación de Bromas de Programadores](https://official-joke-api.appspot.com/jokes/random)
+> - [API de Obtención de Divisas](https://api.nbp.pl/)
 > - CSS
 >    - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
 > - JavaScript:
@@ -64,4 +94,4 @@ Este conversor de divisas online ha sido creado por **[Cristina Correa](https://
 
 ## 🎯 Propósito del Proyecto
 
-Este proyecto tiene como objetivo principal el aprendizaje de tecnologías para mejorar en el plano del desarrollo 
+Este proyecto forma parte de una tarea de la asignatura de "Desarrollo Web en Entorno Cliente" y tiene como objetivo principal el aprendizaje de tecnologías para mejorar en el plano del desarrollo. Es un proyecto que está inspirado en el [conversor de divisas de xe.com](https://www.xe.com/es/currencyconverter/)
