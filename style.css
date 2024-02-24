@@ -122,7 +122,7 @@ small {
 
 small > a {
   color: #fff;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 @media (max-width: 300px) {
