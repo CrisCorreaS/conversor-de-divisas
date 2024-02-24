@@ -182,13 +182,15 @@ SELECT_TO.addEventListener("change", function () {
 });
 
 
-function cambiar() {
+function cambiar(e) {
   SELECT_FROM.value = opcionToSeleccionada;
   SELECT_TO.value = opcionFromSeleccionada;
 
   let helper = opcionFromSeleccionada;
   opcionFromSeleccionada = opcionToSeleccionada;
   opcionToSeleccionada = helper;
+
+  calcularTasaCambio(e);
 }
 
 CHANGE.addEventListener("click", cambiar, false);
