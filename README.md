@@ -75,7 +75,7 @@ Este conversor de divisas online ha sido creado por **[Cristina Correa](https://
 </ArrayOfExchangeRatesTable>
  ```
 > [!WARNING]
-> Al ser una API del BNP, la información está en polaco y las tags en inglés. En general no nos afecta para nada excepto para el nombre de la divisa.
+> Al ser una API del NBP, la información está en polaco y las tags en inglés. En general no nos afecta para nada excepto para el nombre de la divisa.
 
 ## 🔎💡 Información
 > [!IMPORTANT]
