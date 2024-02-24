@@ -173,12 +173,14 @@ xhr.open(
 );
 xhr.send();
 
-SELECT_FROM.addEventListener("change", function () {
+SELECT_FROM.addEventListener("change", function (e) {
   opcionFromSeleccionada = this.value;
+  calcularTasaCambio(e);
 });
 
-SELECT_TO.addEventListener("change", function () {
+SELECT_TO.addEventListener("change", function (e) {
   opcionToSeleccionada = this.value;
+  calcularTasaCambio(e);
 });
 
 
