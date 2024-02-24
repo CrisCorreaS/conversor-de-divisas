@@ -19,14 +19,17 @@ Este conversor de divisas online ha sido creado por **[Cristina Correa](https://
 ### Funcionalidades:
  1️⃣ **Validación del importe**:
   - Valida que se haya introducido un importe antes de hacer la conversión. Si no es así aparece un mensaje de aviso de error.
+    
  ![Vista previa de las funcionalidades del conversor](https://github.com/CrisCorreaS/conversor-de-divisas/blob/main/video/feature1.gif)
 
  2️⃣ **Conversión de divisas con información**:
   - Permite a los usuarios convertir euros, dólares estadounidenses, canadienses y australianos, libras y yenes. Además, da información sobre las equivalencias de las monedas en tiempo real.
+    
  ![Vista previa de las funcionalidades del conversor](https://github.com/CrisCorreaS/conversor-de-divisas/blob/main/video/feature2.gif)
 
 3️⃣ **Conversión inversa instantánea**:
  - En un solo click, puedes hacer la conversión contraria sin ningún problema.
+   
  ![Vista previa de las funcionalidades del conversor](https://github.com/CrisCorreaS/conversor-de-divisas/blob/main/video/feature3.gif)
 
 ## 🌱 Características
