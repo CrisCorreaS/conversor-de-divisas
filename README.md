@@ -5,7 +5,7 @@
 <img alt="css3" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 <img alt="javascript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 <br/><br/>
-![Imagen del conversor de divisas](https://github.com/CrisCorreaS/conversor-de-divisas/blob/main/img/visualizaci%C3%B3n/conversor-vista.png)
+[![Imagen del conversor de divisas](https://github.com/CrisCorreaS/conversor-de-divisas/blob/main/img/visualizaci%C3%B3n/conversor-vista.png)](https://criscorreas.github.io/conversor-de-divisas/)
 
 Este conversor de divisas online ha sido creado por **[Cristina Correa](https://www.linkedin.com/in/cristina-correa-segade/)**
 
